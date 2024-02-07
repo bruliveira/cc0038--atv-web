@@ -1,0 +1,63 @@
+.main-todo {
+  background-color: rgb(48, 58, 145);
+  width: 60%;
+  height: 60%;
+  margin: auto;
+  color: white;
+}
+.titulo-cima {
+  margin-top: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.adicionar-tarefa {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 70%;
+  margin: auto;
+  padding: 10px;
+}
+.input-tarefa {
+  flex: 1;
+  padding: 10px;
+  border: 2px solid #cfc;
+  border-radius: 6px;
+  font-size: 18px;
+  margin-right: 10px;
+}
+.button-adicionar {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 18px;
+  cursor: pointer;
+  max-width: 35%;
+}
+.button-adicionar:hover {
+  background-color: #45a049;
+}
+.tarefas-adicionadas {
+  margin: 0 auto;
+  margin-bottom: 10%;
+  padding: 10px;
+  border-radius: 6px;
+  max-width: 90%;
+}
+.tarefa {
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.button-editar,
+.button-excluir {
+  margin-left: 10px;
+}
