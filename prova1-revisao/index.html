@@ -21,5 +21,19 @@
 
     <script src="./scripts/q13-navegador.js"></script>
     <script type="module" src="./sscripts/script.js"></script>
+    <script>
+        const pessoa = {     
+            name: "João"
+            } 
+            const animal = {    
+                name: "Bidu",    
+                printName(){        
+                console.log(this.name)    
+                }
+            }
+            console.log(pessoa.name)
+            animal.printName.call(pessoa);
+            animal.printName();
+    </script>
 </body>
 </html>

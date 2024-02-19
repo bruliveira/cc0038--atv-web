@@ -24,3 +24,5 @@ const horaFormatada = `${horaDia} ${horaPeriodo} : ${minutosDia}m : ${segundoDia
 const dataHoraFinal = `Data: ${dataAtualFormatada}\nHorário: ${horaFormatada}`
 
 alert(dataHoraFinal)
+
+export { dataHoraFinal };
