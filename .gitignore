@@ -1,0 +1,33 @@
+# Node.js
+node_modules/
+
+# Arquivos de logs
+*.log
+
+# Arquivos de backup
+*.bak
+
+# Arquivos de configuração
+.env
+
+# Arquivos de construção e distribuição
+dist/
+build/
+out/
+
+# Arquivos de configuração do IDE
+.idea/
+.vscode/
+
+# Arquivos de dependência de desenvolvimento
+*.bak
+*.config
+*.db
+*.local
+*.sql
+
+# Outros arquivos de configuração
+*.seed
+*.pid
+*.log
+*.dmp

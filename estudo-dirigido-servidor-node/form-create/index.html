@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms - node</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="center">
+      <div class="container">
+        <h1>Formulário de cadastro de produtos</h1>
+        <form method="POST" action="http://localhost:3000/produtos">
+          <label for="nome">Nome:</label><br />
+          <input type="text" id="nome" name="nome" /><br />
+
+          <label for="preco">Preço:</label><br />
+          <input type="number" id="preco" name="preco" /><br />
+
+          <label for="descricao">Descrição:</label><br />
+          <textarea id="descricao" name="descricao"></textarea><br />
+
+          <label for="categoria">Categoria:</label><br />
+          <select id="categoria" name="categoria">
+            <option value="eletronicos">Eletrônicos</option>
+            <option value="vestuario">Vestuário</option>
+            <option value="alimentos">Alimentos</option></select
+          ><br />
+
+          <input type="button" value="Enviar" onclick="enviarFormulario()" />
+        </form>
+      </div>
+    </div>
+    <script>
+      function enviarFormulario() {
+        document.querySelector("form").submit();
+      }
+    </script>
+  </body>
+</html>
